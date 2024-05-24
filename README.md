@@ -37,7 +37,6 @@ Movie Explorer is a web application designed to provide users with a seamless ex
 - **React**: JavaScript library for building user interfaces.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
 - **TMDB API**: External API for fetching movie data.
-- **Axios**: Promise-based HTTP client for API requests.
 
 
 ## Features
