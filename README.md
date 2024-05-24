@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Movie Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Deployd Link](https://movie-explore-eight.vercel.app/)
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+Movie Explorer is a web application designed to provide users with a seamless experience in discovering movies. Utilizing the TMDB (The Movie Database) API, the app features a search function, and dedicated pages for top-rated, upcoming, and popular movies. Additionally, the application offers both dark and light themes for user preference.
 
-### `npm start`
+## Development Process
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Project Initialization**:
+   - Set up the project using `create-react-app` to scaffold the initial structure.
+   - Integrated Tailwind CSS for rapid and customizable styling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **API Integration**:
+   - Registered and obtained an API key from TMDB.
+   - Created services to interact with TMDB API endpoints for fetching data regarding movies.
+   - Handled API requests and responses using axios for better promise-based HTTP requests.
 
-### `npm test`
+3. **Feature Implementation**:
+   - **Search by Keywords**: Developed a search bar that allows users to input keywords and receive relevant movie results.
+   - **Top Rated Movies**: Created a dedicated page that displays movies sorted by their rating.
+   - **Upcoming Movies**: Implemented a page showcasing movies that are scheduled to be released soon.
+   - **Popular Movies**: Added a page that lists currently popular movies.
+   - **Theme Toggle**: Integrated a theme toggle allowing users to switch between dark and light modes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **UI/UX Enhancements**:
+   - Used Tailwind CSS to style the application, ensuring a responsive and modern design.
+   - Employed React state and context for managing theme state across the application.
 
-### `npm run build`
+5. **Testing and Deployment**:
+   - Tested the application for functionality and responsiveness across different devices and browsers.
+   - Deployed the application using a chosen hosting service, providing a live link for user access.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **TMDB API**: External API for fetching movie data.
+- **Axios**: Promise-based HTTP client for API requests.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Search Movies by Keywords**: Allows users to find movies by entering keywords.
+- **Top Rated Movies**: Displays a list of movies with the highest ratings.
+- **Upcoming Movies**: Shows movies that are yet to be released.
+- **Popular Movies**: Lists movies that are currently popular.
+- **Dark and Light Themes**: Provides a toggle for users to switch between dark and light modes.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for checking out Movie Explorer. Enjoy exploring the world of movies!
